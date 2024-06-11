@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    color: #343434;
+    margin: 30px;
+}
+
+h1, h2, h3, p, nav {
+    font-family: Quando, Arial, serif;
+    color: #173e43;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+a {
+    padding: 5px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+section {
+
+    justify-content: center;
+    padding: 1em;
+}
+#wrapper{
+    max-width: 1000px;
+}
+#cabins {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+}
+form {
+    width: 300px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+form input[type="submit"] {
+    background-color: #173e43;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0f2d30;
+}
+
+footer {
+    background-color: #173e43;
+    color: white;
+    text-align: center;
+    padding: 2em;
+    margin-top: 1em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Additional styles for the update page */
+#update h2 {
+    text-align: center;
+}
+
+#update form {
+    max-width: 500px;
+    margin:  auto;
+}
+
+#update label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#update input[type="text"],
+#update input[type="number"],
+#update textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+#update input[type="submit"] {
+    background-color: #173e43;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+#update input[type="submit"]:hover {
+    background-color: #0f2d30;
+}
+
+#update img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+a:hover {
+    color: aqua; 
+}
+
+
+
+
+/* Additional styles for the logout link */
+.logout {
+
+    color: white;
+    border: none;
+    padding: 1em 0px;
+    cursor: pointer;
+
+}
+
